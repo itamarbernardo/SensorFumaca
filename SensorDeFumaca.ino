@@ -46,7 +46,7 @@ void loop() {
                                if (analogSensor > sensorThres)
                                 {
                                 Serial.println(" Tá pegando fogo!!!!");
-                                client.println("666");
+                                client.println("777");
                                 alarme();
                                 }
                                 else
